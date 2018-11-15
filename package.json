@@ -1,0 +1,26 @@
+{
+  "name": "videochatusingjs",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines":{
+    "node":"8.11.3"
+  },
+  "now":{
+    "engines":{
+      "node":"8.11.3"
+    }
+  },
+  "keywords": [],
+  "author": "Nikhil karkra",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "handlebars": "^4.0.12",
+    "jquery": "^3.3.1",
+    "semantic-ui-css": "^2.4.1",
+    "simplewebrtc": "^3.0.2"
+  }
+}
